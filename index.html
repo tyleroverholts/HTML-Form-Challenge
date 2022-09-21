@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <title>Signup Form</title>
+    </head>
+    <body>
+      <h1>Signup Form</h1>
+      <br>
+      <form>
+        <label for="email">
+          Please type your email address:<br>
+          <input type="email" id="email" name="emailInput">
+        </label><br>
+        <br>
+        <label for="password">
+          Please type your password:<br>
+          <input type="text" id="password" name="passInput">
+        </label><br>
+        <br>
+        <label for="username">
+          Please type your GitHub username:<br>
+          <input type="text" id="username" name="userName">
+        </label><br>
+        <br>
+        <fieldset style="width:200px">
+          <legend>Please select your <strong>Windows Operating System edition:</strong></legend>
+            <input type="radio" id="enterprise" name="edition" value="enterprise">
+              <label for="enterprise">Windows Enterprise</label><br>
+            <input type="radio" id="professional" name="edition" value="professional">
+              <label for="professional">Windows Professional</label><br>
+            <input type="radio" id="free" name="edition" value="free">
+              <label for="free">Windows Home (Free)</label>
+        </fieldset><br>
+        <br>
+        <label for="remember">
+          Remember Me
+          <input type="checkbox" id="remember" name="rememberMe" value="Remember Me">
+        </label>
+      </form>
+    </body>
+  </html>
